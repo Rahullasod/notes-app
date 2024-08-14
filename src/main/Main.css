@@ -1,0 +1,103 @@
+.app-main {
+    width: 70%;
+    height: 100vh;
+    background-color: #E8E8E8;
+  }
+
+  
+  .no-active-note {
+    width: 70%;
+    background-color: #F7ECDC;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    padding-bottom: 30px;
+  }
+  .endnoactive{
+    display: flex;
+    column-gap: 3px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+  }
+  .lockimg{
+    width: 20px;
+    height: 20px;
+    background-image: url('./lock.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .endline{
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .noactiveimg{
+    width: 500px;
+    height: 250px;
+    background-image: url('./bg.png'); 
+    background-size: contain;
+  }
+  .noactiveh1{
+      font-weight: 400;
+      font-size: 50px;
+      letter-spacing: 2%;
+  }
+  .noactivep{
+      width: 600px;
+      text-align: center;
+  }
+
+
+  /* Editing */
+  .app-main-note-edit {
+  }
+  
+  .Main-Footer{
+    border: 1px solid red;
+    padding: 20px;
+    background-color: #E8E8E8;
+  }
+  .app-main-note-edit input,
+  textarea {
+    display: block;
+    border: 1px solid red;
+    width: 100%;
+    height: 210px;
+    padding: 20px 30px;
+    resize: none;
+    font-size: 29px;
+    border-radius: 9px;
+  }
+  .app-main-note-edit input {
+    height: 50px;
+    font-size: 2rem;
+  }
+  .Main-header{
+    display: flex;
+    width: 250px;
+    column-gap: 30px;
+    align-items: center;
+    border: 1px solid red;
+    margin: 20px;
+  }
+  
+  /* Preview */
+  .app-main-note-preview {
+    border: 1px solid #f70000;
+    overflow-x: scroll;
+    height: 50vh;
+    background-color: #F7ECDC;
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+    word-break: break-all; 
+    
+  }
+  .preview-title{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+  }
