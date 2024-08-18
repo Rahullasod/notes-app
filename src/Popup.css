@@ -9,12 +9,15 @@
     justify-content: center;
     align-items: center;
   }
-  
+  form{
+    position: relative;
+  }
   .popup {
     background: #fff;
     padding: 25px 40px;
     border-radius: 6px;
     width: 740px;
+    height: 280px;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
@@ -24,7 +27,7 @@
     margin-bottom: 15px;
     display: flex;
     column-gap: 40px;
-
+    position: relative;
   }
   
   .form-group label {
@@ -53,8 +56,11 @@
   }
   
   .create-group-button {
-    background-color: #4caf50;
+    background-color: #000;
     color: white;
+    width: 155px;
+    position: absolute;
+    right: 0;
   }
   
   .close-popup-button {
@@ -65,6 +71,10 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+  }
+  .color-options{
+    display: flex;
+    column-gap: 15px;
   }
   
   .color-swatch {
@@ -80,7 +90,7 @@
     border: 1px solid black;
   }
 .radio-hide{
-    position: absolute;
+    /* position: absolute; */
     width: 31px;
     height: 31px;
     

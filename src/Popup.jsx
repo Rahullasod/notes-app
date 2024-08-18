@@ -115,13 +115,13 @@ const Popup = ({ onClose, onCreateGroup }) => {
           <button type="submit" className="create-group-button">
             Create Group
           </button>
-          <button
+          {/* <button
             type="button"
             className="close-popup-button"
             onClick={onClose}
           >
             Cancel
-          </button>
+          </button> */}
         </form>
       </div>
     </div>
