@@ -62,6 +62,11 @@
     position: absolute;
     right: 0;
   }
+  .create-group-button:hover {
+    
+    color: white;
+   
+  }
   
   .close-popup-button {
     background-color: #f44336;
