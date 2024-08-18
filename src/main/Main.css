@@ -52,11 +52,7 @@
 }
 /* Editing */
 
-.Main-Footer{
-  /* border: 1px solid red; */
-  padding: 20px;
-  background-color: #E8E8E8;
-}
+
 .app-main-note-edit input,
 textarea {
   display: block;
@@ -97,9 +93,7 @@ textarea {
   font-weight: 500;
   padding: 0;
 }
-.Main-Footer {
-  position: relative;
-}
+
 
 .textarea-container {
   position: relative;
@@ -115,10 +109,6 @@ textarea {
   resize: none;
 }
 
-.Main-Footer {
-  position: relative;
-  margin-top: 20px;
-}
 
 .textarea-container {
   position: relative;
@@ -168,7 +158,10 @@ textarea {
   align-items: center;
   padding: 25px 30px;
   background-color: #E8E8E8;
+
+  margin-top: 20px;
 }
+
 #body{
   border: #FFFFFF;
 }
